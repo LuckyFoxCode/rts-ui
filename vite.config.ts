@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       components: '/src/components',
-      uikit: '/src/ui-kit',
+      ui: '/src/ui',
     },
   },
 });
