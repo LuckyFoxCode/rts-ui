@@ -1,0 +1,20 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  src: format('truetype') url(./Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  src: format('truetype') url(./Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  src: format('truetype') url(./Roboto-Bold.ttf);
+}
