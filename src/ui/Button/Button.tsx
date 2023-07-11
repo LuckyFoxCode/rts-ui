@@ -13,9 +13,10 @@ export interface ButtonProps extends DOMAttributes<HTMLButtonElement> {
 
 export const Button: FC<ButtonProps> = ({
   className,
-  isDisabled,
-  typeButton,
+  isDisabled = false,
+  typeButton = 'button',
   onClick,
+  children,
   ...rest
 }) => {
   return (
@@ -24,6 +25,8 @@ export const Button: FC<ButtonProps> = ({
       disabled={isDisabled}
       onClick={onClick}
       type={typeButton}
-      {...rest}></button>
+      {...rest}>
+      <span>{children}</span>
+    </button>
   );
 };
