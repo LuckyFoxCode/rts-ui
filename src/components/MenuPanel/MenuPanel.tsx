@@ -21,6 +21,15 @@ export const MenuPanel: FC = () => {
           to={ROUTES.BUTTON}>
           Button
         </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            ['MenuPanel-ListItem', isActive ? 'MenuPanel-ListItem__active' : '']
+              .filter(Boolean)
+              .join(' ')
+          }
+          to={ROUTES.ICON}>
+          Icon
+        </NavLink>
       </div>
     </nav>
   );

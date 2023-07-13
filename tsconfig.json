@@ -17,6 +17,7 @@
     "paths": {
       "ui/*": ["ui/*"],
       "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
       "routes/*": ["routes/*"],
       "components/*": ["components/*"]
     },

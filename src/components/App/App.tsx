@@ -1,5 +1,5 @@
 import { Layout } from 'components';
-import { ButtonPage, HomePage } from 'pages';
+import { ButtonPage, HomePage, IconPage } from 'pages';
 import { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ROUTES } from 'routes/routes';
@@ -17,6 +17,10 @@ export const App: FC = () => {
           <Route
             path={ROUTES.BUTTON}
             element={<ButtonPage />}
+          />
+          <Route
+            path={ROUTES.ICON}
+            element={<IconPage />}
           />
         </Routes>
       </Layout>

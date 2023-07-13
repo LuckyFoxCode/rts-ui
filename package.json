@@ -14,7 +14,8 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.26",
@@ -41,6 +42,7 @@
     "sass": "^1.63.6",
     "storybook": "^7.0.26",
     "typescript": "^5.0.2",
+    "uid": "^2.0.2",
     "vite": "^4.4.0"
   }
 }
