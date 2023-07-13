@@ -5,7 +5,10 @@ export const IconPage = () => {
   return (
     <div className='IconPage'>
       <h2>Icon</h2>
-      <Icon type='Pdf' />
+      <Icon
+        name='IconPdf'
+        size={35}
+      />
     </div>
   );
 };
